@@ -11,9 +11,11 @@ typedef enum _GameState
     GameState_SaveScreen = 2
 } e_GameState;
 
+/*
 typedef struct _GameLoop
 {
-    /* data */
 } s_GameLoop;
+
+*/
 
 #endif
