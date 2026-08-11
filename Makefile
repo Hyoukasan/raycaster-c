@@ -1,6 +1,6 @@
 CC = gcc
 OPT = -O2
-CFLAGS = -Wall -Wextra -g
+CFLAGS = -Wall -Wextra -g -I include/extra
 MKDIR_BUILD = @if not exist "$(BUILD_DIR)" mkdir "$(BUILD_DIR)"
 CLEAN_BUILD = rmdir /s /q "$(BUILD_DIR)"
 
