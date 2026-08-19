@@ -1,6 +1,5 @@
-#include "types.h"
-#include "game.h"
-
+#include <types.h>
+#include <game.h>
 #include <stdio.h>
 
 int main(void)
